@@ -7,8 +7,12 @@ body {
     flex-direction: column;
 }
 
+div {
+    font-size: 14px;
+}
+
 .container {
-    width: 800px;
+    width: 900px;
     margin: auto;
 }
 
@@ -37,7 +41,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
@@ -61,57 +65,123 @@ a {
     gap: 8px;
 }
 
+.right {
+    display: flex;
+    justify-content: center;
+    width: 850px;
+}
+
 .awesome {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: 600;
+}
 
-
-.second {
+.cont-second {
+    height:450px;
     display: flex;
-    justify-content: center;
-    padding: 32px 120px;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
 }
 
 .info-header {
     font-size: 32px;
     color: #1f2937;
     font-weight: 900;
+    margin: 50px;
 }
 
 .content {
     display: flex;
     justify-content: space-evenly;
-    gap: 8px;
+    gap: 55px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    text-align: center;
 }
 
 .pic {
-    height: 120px;
-    width: 120px;
+    height: 141px;
+    width: 141px;
     border: 3px solid #3882F6;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
 .third {
     background: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
 
+.cont-third {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 680px;
+}
 
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 10;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fourth {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-fourth {
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button.bottom {
+    border: 2px solid #f9faf8;
+}
+
+.fourth-bold {
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .footer-text {
     display: flex;
